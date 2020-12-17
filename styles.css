@@ -17,4 +17,5 @@ html, body{
 }
 #heart div{
     background-color: red;
+    width: 100px;
 }
