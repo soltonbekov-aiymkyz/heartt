@@ -12,3 +12,6 @@ html, body{
     justify-content: center;
     align-items: center;
 }
+#heart{
+    transform: rotate(45deg);
+}
