@@ -12,15 +12,18 @@ html, body{
     justify-content: center;
     align-items: center;
 }
-#heart{
+.heart{
     transform: rotate(45deg);
 }
-#heart div{
+.heart div{
     background-color: red;
     width: 100px;
     height: 100px;
 }
-#heart div:first-child{
+.heart div:first-child{
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+}
+.heart div:last-child{
+    position: relative;
 }
