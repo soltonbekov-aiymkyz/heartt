@@ -15,3 +15,6 @@ html, body{
 #heart{
     transform: rotate(45deg);
 }
+#heart div{
+    background-color: red;
+}
