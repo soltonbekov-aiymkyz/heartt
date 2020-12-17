@@ -20,3 +20,6 @@ html, body{
     width: 100px;
     height: 100px;
 }
+#heart div:first-child{
+    border-top-left-radius: 50%;
+}
