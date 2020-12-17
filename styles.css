@@ -22,4 +22,5 @@ html, body{
 }
 #heart div:first-child{
     border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
