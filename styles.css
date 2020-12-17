@@ -27,4 +27,5 @@ html, body{
 .heart div:last-child{
     position: relative;
     left: -100px;
+    top: -100px;
 }
