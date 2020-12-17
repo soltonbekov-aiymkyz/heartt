@@ -11,6 +11,12 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    animation: heart 2s linear   infinite     ;
+}
+.container:hover{
+    transform: scale(2.5);
+    transition-duration: 3s;
 }
 .heart{
     transform: rotate(45deg);
@@ -20,12 +26,12 @@ html, body{
     background-color: red;
     width: 100px;
     height: 100px;
-    animation: heart 2s ease-in   infinite  alternate  0s  forwards ;
+  /*  animation: heart 2s ease-in   infinite  alternate  0s  forwards ;  */
 }
 .heart div:first-child{
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    animation: heart 2s ease-in   infinite  alternate  0s  forwards ;
+  /*  animation: heart 2s ease-in   infinite  alternate  0s  forwards ; */
 }
 .heart div:last-child{
     position: relative;
@@ -35,12 +41,12 @@ html, body{
     border-bottom-left-radius: 50%;
    /* animation: heart 2s ease-in   infinite  alternate  0s  forwards ;*/
 }
+/*
 .heart div:hover{
     transform: scale(2.1);
     transition-duration: 2s;
-    
-}
-/*
+}*/
+
 @keyframes heart {
     0%{
         scale: 0;
@@ -54,4 +60,4 @@ scale: 4.8;
     100%{
 scale: 5.1;
     }
-}*/
+}
